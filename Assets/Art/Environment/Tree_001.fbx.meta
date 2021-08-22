@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: ec77829fe359716449a105ac257e159e
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1515358344946839015
+    second: Palm Tree 001|Cube.001Action
+  - first:
+      74: 8717248018681203760
+    second: Palm Tree 001|IcosphereAction
+  - first:
+      74: 4139359808731834947
+    second: Palm Tree 001|IcosphereAction.001
+  - first:
+      74: -6580066857141915161
+    second: Palm Tree 001|IcosphereAction.002
+  - first:
+      74: -1264620898056723154
+    second: Palm Tree 001|IcosphereAction.003
+  - first:
+      74: -1331317286806617085
+    second: Palm Tree 001|IcosphereAction.004
+  - first:
+      74: -9157832117345098524
+    second: Palm Tree 001|IcosphereAction.005
+  - first:
+      74: -4823286160784525407
+    second: Palm Tree 001|IcosphereAction.006
+  - first:
+      74: -6545022558701123910
+    second: Palm Tree 001|IcosphereAction.007
+  - first:
+      74: 8462786731611778899
+    second: Palm Tree 001|IcosphereAction.008
+  - first:
+      74: 3579118369968735248
+    second: Palm Tree 001|IcosphereAction.009
+  - first:
+      74: -6350250201633662624
+    second: Palm Tree 001|IcosphereAction.010
+  - first:
+      74: -4814274079291812759
+    second: Palm Tree 001|IcosphereAction.011
+  - first:
+      74: 3394640524071339887
+    second: Palm Tree 001|IcosphereAction.012
+  - first:
+      74: 8378743801557741043
+    second: Palm Tree 001|IcosphereAction.013
+  - first:
+      74: -2375814578322231332
+    second: Palm Tree 001|IcosphereAction.014
+  - first:
+      74: -7116653708527715683
+    second: Palm Tree 001|IcosphereAction.015
+  - first:
+      74: 1153513442120924617
+    second: Palm Tree 001|IcosphereAction.016
+  - first:
+      74: 31343405960797757
+    second: Palm Tree 001|IcosphereAction.017
+  - first:
+      74: -8178107061231163708
+    second: Palm Tree 001|IcosphereAction.018
+  - first:
+      74: -7384724583367037426
+    second: Palm Tree 001|IcosphereAction.019
+  - first:
+      74: 1669893638960001400
+    second: Palm Tree 001|Island 001Action
+  - first:
+      74: 4512672466072729056
+    second: Palm Tree 001|Palm Tree 001Action
+  - first:
+      74: 4334981991404809240
+    second: Palm Tree 001|Palm Tree 002Action
+  - first:
+      74: 7625122255889200237
+    second: Palm Tree 001|PlaneAction
+  - first:
+      74: 1052752764033135202
+    second: Palm Tree 001|PlaneAction.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
