@@ -21,6 +21,13 @@ public class Player : MonoBehaviour
     private float _cameraSensitivity = 2.0f;
     private Camera mainCam;
 
+    [Header("UI Settings")]
+    [SerializeField]
+    private int gold;
+    private UIManager _uiManager;
+
+    private Animator _anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +44,15 @@ public class Player : MonoBehaviour
         {
             Debug.LogError("Character Controller is Null");
         }
+
+        _uiManager = GameObject.Find("UI_Manager").GetComponent<UIManager>();
+
+        if (_uiManager == null)
+        {
+            Debug.LogError("UI Manager is Null");
+        }
+
+        _anim = GetComponentInChildren<Animator>();
 
         //lock cursor and hide it
         //escape key to unlock and reshow
@@ -59,14 +75,12 @@ public class Player : MonoBehaviour
     {
         if (_controller.isGrounded == true)
         {
-            Debug.Log("Youre Grounded");
-
-
-            float horizontal = Input.GetAxis("Horizontal");
+            _anim.SetBool("Jumping", false);
             float vertical = Input.GetAxis("Vertical");
 
-             direction = new Vector3(horizontal, 0, vertical);
+             direction = new Vector3(0, 0, vertical);
              velocity = direction * _speed;
+            _anim.SetFloat("Move", vertical);
 
             //CONVERT TO WORLD SPACE
             velocity = transform.TransformDirection(velocity);
@@ -74,12 +88,14 @@ public class Player : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 velocity.y += _jumpHeight;
+                _anim.SetBool("Jumping", true);
             }
         }
 
         velocity.y -= _gravity * Time.deltaTime;
 
         _controller.Move(velocity * Time.deltaTime);
+        
     }
 
     void CameraRotation()
@@ -100,5 +116,12 @@ public class Player : MonoBehaviour
         currentCamRot.x -= mouseY * _cameraSensitivity;
         currentCamRot.x = Mathf.Clamp(currentCamRot.x, 0, 26);
         mainCam.gameObject.transform.localRotation = Quaternion.AngleAxis(currentCamRot.x, Vector3.right);
+    }
+
+    public void AddCoins()
+    {
+        gold++;
+        _uiManager.UpdateGoldDisplay(gold);
+
     }
 }

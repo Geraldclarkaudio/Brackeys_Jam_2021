@@ -1,11 +1,29 @@
 fileFormatVersion: 2
-guid: 5079eb37487e181478f9450319148579
+guid: 6c2874ad62db0f243ab4cab6c1e71ccc
 ModelImporter:
   serializedVersion: 19301
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -8336398592890864154
+    second: Pirate Hero.001|Cube.002Action
+  - first:
+      74: -4561725461185871288
+    second: Pirate Hero.001|CubeAction
+  - first:
+      74: 477496537438354227
+    second: Pirate Hero.001|Hero_For_ScaleAction
+  - first:
+      74: -7146123934193086992
+    second: Pirate Hero.001|metarigAction.002
+  - first:
+      74: -1748147647797043996
+    second: Pirate Hero.001|walk
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
   externalObjects: {}
   materials:
-    materialImportMode: 0
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -69,7 +87,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -84,7 +102,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
