@@ -64,6 +64,7 @@ public class Player : MonoBehaviour
     {
         CalculateMovement();
         CameraRotation();
+        Attack();
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -123,5 +124,14 @@ public class Player : MonoBehaviour
         gold++;
         _uiManager.UpdateGoldDisplay(gold);
 
+    }
+
+    public void Attack()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            _anim.SetTrigger("Attack");
+        }
+        
     }
 }
