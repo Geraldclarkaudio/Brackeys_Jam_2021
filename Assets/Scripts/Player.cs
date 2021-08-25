@@ -26,6 +26,10 @@ public class Player : MonoBehaviour
     private int gold;
     private UIManager _uiManager;
 
+    [Header("Stats")]
+    [SerializeField]
+    private int health;
+
     private Animator _anim;
 
     // Start is called before the first frame update
@@ -53,7 +57,9 @@ public class Player : MonoBehaviour
         }
 
         _anim = GetComponentInChildren<Animator>();
-
+       
+        health = 5;
+       
         //lock cursor and hide it
         //escape key to unlock and reshow
         Cursor.lockState = CursorLockMode.Locked;
@@ -62,6 +68,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _uiManager.UpateLivesDisplay(health);
         CalculateMovement();
         CameraRotation();
         Attack();
@@ -133,5 +140,11 @@ public class Player : MonoBehaviour
             _anim.SetTrigger("Attack");
         }
         
+    }
+
+    public void Damage()
+    {
+        health--;
+        _uiManager.UpateLivesDisplay(health);
     }
 }

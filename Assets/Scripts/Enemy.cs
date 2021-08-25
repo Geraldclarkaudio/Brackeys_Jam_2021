@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
         }
 
         Movement();
-        Debug.Log("Enemy is: " + distance + "Units Away");
+        //Debug.Log("Enemy is: " + distance + "Units Away");
     }
 
     public virtual void Movement()
@@ -67,10 +67,10 @@ public class Enemy : MonoBehaviour
         {
             anim.SetBool("Moving", false);
         }
-    }
-
-    public virtual void Attack()
-    {
-
+        if(distance <= 7)
+        {
+            //anim.SetBool("Moving", false);
+            anim.SetTrigger("Attack");
+        }
     }
 }

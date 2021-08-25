@@ -15,6 +15,6 @@ public class UIManager : MonoBehaviour
 
     public void UpateLivesDisplay(int lives)
     {
-        _livesText.text = "Lives: " + lives.ToString();
+        _livesText.text = "Health: " + lives.ToString();
     }
 }
