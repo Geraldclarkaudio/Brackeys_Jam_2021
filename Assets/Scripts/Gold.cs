@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Gold : MonoBehaviour
 {
+    [SerializeField]
+    private float speed = 5.0f;
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
@@ -12,11 +14,15 @@ public class Gold : MonoBehaviour
 
             if(player != null)
             {
-                player.AddCoins();
+                //player.AddCoins();
             }
 
             Debug.Log("Obtained a Coin");
             Destroy(this.gameObject);
         }
+    }
+    private void Update()
+    {
+        transform.Rotate(new Vector3(0, 1, 0) * speed * Time.deltaTime);
     }
 }

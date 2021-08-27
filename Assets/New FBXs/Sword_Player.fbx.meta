@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 973278a83304b264695baa85a1e946c1
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -1535684432063745951
+    second: Hero Sword|Character_Female_Wench_01Action
+  - first:
+      74: 1280826443141795180
+    second: Hero Sword|Character_Pirate_Seaman_01Action
+  - first:
+      74: -2628470187837527732
+    second: Hero Sword|Character_Pirate_Seaman_01Action.001
+  - first:
+      74: 7880929114298075593
+    second: Hero Sword|Character_Pirate_Seaman_01Action.002
+  - first:
+      74: -419499841851806119
+    second: Hero Sword|CubeAction.097
+  - first:
+      74: 7333667793715890962
+    second: Hero Sword|CylinderAction
+  - first:
+      74: -2232446063332232461
+    second: Hero Sword|Hero_For_ScaleAction.001
+  - first:
+      74: -6491044478246273008
+    second: Hero Sword|metarigAction
+  - first:
+      74: -1343387271677585411
+    second: Hero Sword|metarigAction.001
+  - first:
+      74: 1956104025139244358
+    second: Hero Sword|metarigAction.002
+  - first:
+      74: -4896469548765686785
+    second: Hero Sword|metarigAction.003
+  - first:
+      74: 6511103792358857275
+    second: Hero Sword|metarigAction.004
+  - first:
+      74: 8449447881554410948
+    second: Hero Sword|Plane.001Action
+  - first:
+      74: -2321886318965137103
+    second: Hero Sword|Plane.002Action
+  - first:
+      74: 6275317184872442554
+    second: Hero Sword|Plane.002Action.001
+  - first:
+      74: 8360939033407586750
+    second: Hero Sword|Plane.002Action.002
+  - first:
+      74: 8265084783296835418
+    second: Hero Sword|Plane.002Action.003
+  - first:
+      74: 7269868343236309470
+    second: Hero Sword|Plane.002Action.004
+  - first:
+      74: 7703762160082388850
+    second: Hero Sword|PlaneAction
+  - first:
+      74: -6325057962899792002
+    second: Hero Sword|PointAction
+  - first:
+      74: 624080128460845463
+    second: Hero Sword|SM_Bld_Cuba_Arch_01Action
+  - first:
+      74: -2662536060980196622
+    second: Hero Sword|SM_Bld_Dock_01Action
+  - first:
+      74: 6576415214743424274
+    second: Hero Sword|SM_Bld_Dock_01Action.001
+  - first:
+      74: 8765119722672690231
+    second: Hero Sword|SM_Bld_Dock_01Action.002
+  - first:
+      74: -5985440924283834862
+    second: Hero Sword|SM_Bld_Dock_01Action.003
+  - first:
+      74: 8559715865624890394
+    second: Hero Sword|SM_Bld_Dock_01Action.004
+  - first:
+      74: -8682874208871347252
+    second: Hero Sword|SM_Bld_Dock_01Action.005
+  - first:
+      74: 1001185797957221979
+    second: Hero Sword|SM_Bld_Dock_01Action.006
+  - first:
+      74: -4520674364448504536
+    second: Hero Sword|SM_Bld_Dock_01Action.007
+  - first:
+      74: -5642904346960354869
+    second: Hero Sword|SM_Bld_Dock_01Action.008
+  - first:
+      74: 4279095218012042381
+    second: Hero Sword|SM_Bld_Dock_01Action.009
+  - first:
+      74: -7428495911780157124
+    second: Hero Sword|SM_Bld_Dock_01Action.010
+  - first:
+      74: -3219454506927646341
+    second: Hero Sword|SM_Bld_Dock_01Action.011
+  - first:
+      74: -8335369020365620803
+    second: Hero Sword|SM_Bld_Dock_01Action.012
+  - first:
+      74: 2210844337850758955
+    second: Hero Sword|SM_Bld_Rickety_House_01Action
+  - first:
+      74: -7023176609450451023
+    second: Hero Sword|SM_Bld_Rickety_House_02Action
+  - first:
+      74: 1941126647831807086
+    second: Hero Sword|SM_Bld_Rickety_House_03Action
+  - first:
+      74: 3476494809429568098
+    second: Hero Sword|SM_Bld_Shanty_Preset_Bar_01Action
+  - first:
+      74: -2917462133827023238
+    second: Hero Sword|SM_Bld_Shop_01Action
+  - first:
+      74: 8512408131384532529
+    second: Hero Sword|SM_Bld_Shop_02Action
+  - first:
+      74: -8317629971118632140
+    second: Hero Sword|SM_Bld_Shop_03Action
+  - first:
+      74: 1647188032879767915
+    second: Hero Sword|SM_Env_Beach_01Action
+  - first:
+      74: -5305885845884645494
+    second: Hero Sword|SM_Env_Beach_01Action.001
+  - first:
+      74: -7648621251600411807
+    second: Hero Sword|SM_Env_Beach_01Action.002
+  - first:
+      74: 5056148147619807289
+    second: Hero Sword|SM_Env_Beach_01Action.003
+  - first:
+      74: -4888111114145807809
+    second: Hero Sword|SM_Env_Beach_01Action.004
+  - first:
+      74: -5895978692632441023
+    second: Hero Sword|SM_Env_Beach_01Action.005
+  - first:
+      74: -6099756590828619814
+    second: Hero Sword|SM_Env_Beach_04Action
+  - first:
+      74: -1275019935795363990
+    second: Hero Sword|SM_Env_Beach_04Action.001
+  - first:
+      74: -7483532788147696019
+    second: Hero Sword|SM_Env_Beach_04Action.002
+  - first:
+      74: 7298663517739343042
+    second: Hero Sword|SM_Env_Beach_04Action.003
+  - first:
+      74: 1376226015959889969
+    second: Hero Sword|SM_Env_Beach_05Action
+  - first:
+      74: 8876612475326298251
+    second: Hero Sword|SM_Env_Beach_06Action
+  - first:
+      74: -95793747962400955
+    second: Hero Sword|SM_Env_Dirt_Tile_Large_01.001Action
+  - first:
+      74: -4178970806037683930
+    second: Hero Sword|SM_Env_Dirt_Tile_Large_01Action
+  - first:
+      74: -1411863585110781805
+    second: Hero Sword|SM_Env_Flat_Sand_01Action
+  - first:
+      74: 2254503838060920970
+    second: Hero Sword|SM_Env_Grass_01Action
+  - first:
+      74: -9016477197584821712
+    second: Hero Sword|SM_Env_Grass_02Action
+  - first:
+      74: 3393249489128791227
+    second: Hero Sword|SM_Env_Grass_02Action.001
+  - first:
+      74: -4801547676133547630
+    second: Hero Sword|SM_Env_Grass_02Action.002
+  - first:
+      74: -1490586482499565098
+    second: Hero Sword|SM_Env_GrassPatch_02Action
+  - first:
+      74: 6635373246819934480
+    second: Hero Sword|SM_Env_PalmTree_02Action
+  - first:
+      74: -2692555479128366611
+    second: Hero Sword|SM_Env_PalmTree_04Action
+  - first:
+      74: -8554931703005362589
+    second: Hero Sword|SM_Env_Rock_Huge_03Action
+  - first:
+      74: -883751451321428432
+    second: Hero Sword|SM_Env_Rock_Large_04Action
+  - first:
+      74: -5106213158540627615
+    second: Hero Sword|SM_Env_Rock_Large_09Action
+  - first:
+      74: -8922441730365031797
+    second: Hero Sword|SM_Env_Rocks_01Action
+  - first:
+      74: 5501813609142733731
+    second: Hero Sword|SM_Env_Rocks_02.001Action
+  - first:
+      74: -6782619603409259851
+    second: Hero Sword|SM_Env_Rocks_02Action
+  - first:
+      74: 1463457825228136006
+    second: Hero Sword|SM_Env_Rocks_02Action.001
+  - first:
+      74: 5806648039086778556
+    second: Hero Sword|SM_Env_Rocks_02Action.002
+  - first:
+      74: -6925182515914944646
+    second: Hero Sword|SM_Env_SugarCane_01Action
+  - first:
+      74: -9112964137272222863
+    second: Hero Sword|SM_Env_SugarCane_01Action.001
+  - first:
+      74: -2994942976893189888
+    second: Hero Sword|SM_Env_SugarCane_01Action.002
+  - first:
+      74: 7449999380167313412
+    second: Hero Sword|SM_Env_SugarCane_01Action.003
+  - first:
+      74: -8670067537627190675
+    second: Hero Sword|SM_Env_SugarCane_01Action.004
+  - first:
+      74: -6976112341981563247
+    second: Hero Sword|SM_Env_Tile_Sand_01Action
+  - first:
+      74: 2813406184395628110
+    second: Hero Sword|SM_Env_Tile_Sand_01Action.001
+  - first:
+      74: 1797597205483475844
+    second: Hero Sword|SM_Env_Vines_Wall_01Action
+  - first:
+      74: -6217259058878175873
+    second: Hero Sword|SM_Item_Bottle_01Action
+  - first:
+      74: -3164491687487284067
+    second: Hero Sword|SM_Item_Bottle_01Action.001
+  - first:
+      74: -6588721086241096623
+    second: Hero Sword|SM_Item_Bottle_01Action.002
+  - first:
+      74: 2957022123965966815
+    second: Hero Sword|SM_Item_Bottle_01Action.003
+  - first:
+      74: -8888695717955571530
+    second: Hero Sword|SM_Item_Bottle_01Action.004
+  - first:
+      74: -4868331762544691902
+    second: Hero Sword|SM_Item_Bottle_01Action.005
+  - first:
+      74: -7892317182318364092
+    second: Hero Sword|SM_Item_Bottle_01Action.006
+  - first:
+      74: 811724045361350506
+    second: Hero Sword|SM_Item_Cup_01Action
+  - first:
+      74: 1029081478772110996
+    second: Hero Sword|SM_Prop_Barrel_01Action
+  - first:
+      74: -2533892333502012351
+    second: Hero Sword|SM_Prop_Barrel_01Action.001
+  - first:
+      74: -7727868200143680337
+    second: Hero Sword|SM_Prop_Barrel_01Action.002
+  - first:
+      74: 7892224845341808008
+    second: Hero Sword|SM_Prop_Barrel_01Action.003
+  - first:
+      74: -893670502880199045
+    second: Hero Sword|SM_Prop_Barrel_01Action.004
+  - first:
+      74: -4535834470474768862
+    second: Hero Sword|SM_Prop_Barrel_01Action.005
+  - first:
+      74: -4978835771294372936
+    second: Hero Sword|SM_Prop_Barrel_01Action.006
+  - first:
+      74: -4806786626122206906
+    second: Hero Sword|SM_Prop_Barrel_05Action
+  - first:
+      74: -8650279402617308371
+    second: Hero Sword|SM_Prop_Barrel_05Action.001
+  - first:
+      74: -178361881782218918
+    second: Hero Sword|SM_Prop_Barrel_05Action.002
+  - first:
+      74: -2619072493026884443
+    second: Hero Sword|SM_Prop_Crate_01Action
+  - first:
+      74: -3195083984484459356
+    second: Hero Sword|SM_Prop_Crate_01Action.001
+  - first:
+      74: -2750835627189286005
+    second: Hero Sword|SM_Prop_Crate_01Action.002
+  - first:
+      74: 1231576446919479773
+    second: Hero Sword|SM_Prop_Shipwreck_01Action
+  - first:
+      74: -7074769910999932990
+    second: Hero Sword|SM_Prop_Stool_01Action
+  - first:
+      74: -233066119635594828
+    second: Hero Sword|SM_Prop_Stool_01Action.001
+  - first:
+      74: -7554124212920628168
+    second: Hero Sword|SM_Prop_Stool_01Action.002
+  - first:
+      74: 4935963315059887386
+    second: Hero Sword|SM_Prop_Stool_01Action.003
+  - first:
+      74: -2606158358067310080
+    second: Hero Sword|SM_Prop_Stool_01Action.004
+  - first:
+      74: 7459373349076754457
+    second: Hero Sword|SM_Veh_Boat_Medium_01_Hull_PirateAction
+  - first:
+      74: -2993041239957848633
+    second: Hero Sword|SM_Wep_Cutlass_01Action
+  - first:
+      74: 1468362604640556446
+    second: Hero Sword|SunAction
+  - first:
+      74: -6011463943688089386
+    second: Hero Sword|SunAction.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

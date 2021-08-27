@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _uiManager.UpateLivesDisplay(health);
+        //_uiManager.UpateLivesDisplay(health);
         CalculateMovement();
         CameraRotation();
         Attack();
@@ -84,11 +84,11 @@ public class Player : MonoBehaviour
         if (_controller.isGrounded == true)
         {
             _anim.SetBool("Jumping", false);
-            float vertical = Input.GetAxis("Vertical");
+            float vertical = Input.GetAxisRaw("Vertical");
 
              direction = new Vector3(0, 0, vertical);
              velocity = direction * _speed;
-            _anim.SetFloat("Move", vertical);
+            _anim.SetFloat("Move", Mathf.Abs(vertical));
 
             //CONVERT TO WORLD SPACE
             velocity = transform.TransformDirection(velocity);
@@ -145,6 +145,6 @@ public class Player : MonoBehaviour
     public void Damage()
     {
         health--;
-        _uiManager.UpateLivesDisplay(health);
+        //_uiManager.UpateLivesDisplay(health);
     }
 }
