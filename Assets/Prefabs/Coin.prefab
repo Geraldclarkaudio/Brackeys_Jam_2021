@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 60
+  clip: {fileID: 8300000, guid: b72a46c68bbc7844eb6d14af3dfb3903, type: 3}
 --- !u!135 &7487299626089075916
 SphereCollider:
   m_ObjectHideFlags: 0

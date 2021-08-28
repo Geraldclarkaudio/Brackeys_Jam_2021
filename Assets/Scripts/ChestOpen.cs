@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChestOpen : MonoBehaviour
 {
     private Animator anim;
+    private AudioSource _audioSource;
 
     [SerializeField]
     private GameObject coinPrefab;
@@ -15,6 +16,7 @@ public class ChestOpen : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,6 +35,8 @@ public class ChestOpen : MonoBehaviour
         {
             canOpen = false;
             anim.SetTrigger("Open");
+            _audioSource.Play();
+
         }
     }
 }

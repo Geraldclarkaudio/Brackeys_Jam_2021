@@ -6,6 +6,9 @@ public class Gold : MonoBehaviour
 {
     [SerializeField]
     private float speed = 5.0f;
+
+    public AudioClip clip;
+ 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
@@ -14,6 +17,8 @@ public class Gold : MonoBehaviour
 
             if(player != null)
             {
+                AudioSource.PlayClipAtPoint(clip, transform.position, 1.0f);
+                
                 //player.AddCoins();
             }
 
