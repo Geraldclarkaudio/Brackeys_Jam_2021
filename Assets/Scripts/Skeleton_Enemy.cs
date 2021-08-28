@@ -14,7 +14,11 @@ public class Skeleton_Enemy : Enemy
     }
     public override void Movement()
     {
-        base.Movement();
-        
+        base.Movement();    
+    }
+
+    public override void Death()
+    {
+        base.Death();
     }
 }

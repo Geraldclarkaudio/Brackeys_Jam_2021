@@ -27,7 +27,7 @@ public class AllAboard : MonoBehaviour
     {
         if(canBoard == true && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("On the ShiP!");
+            Debug.Log("On the Ship!");
             SceneManager.LoadScene(1);
 
         }

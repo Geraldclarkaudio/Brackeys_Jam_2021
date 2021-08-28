@@ -69,8 +69,16 @@ public class Enemy : MonoBehaviour
         }
         if(distance <= 7)
         {
-            //anim.SetBool("Moving", false);
+            anim.SetBool("Moving", false);
             anim.SetTrigger("Attack");
         }
+    }
+
+    public virtual void Death()
+    {
+        anim.SetTrigger("Death");
+        isDead = true;
+        Instantiate(goldCoinPrefab, new Vector3(transform.position.x, transform.position.y + 4, transform.position.z), Quaternion.identity);
+        Destroy(this.gameObject, 5.0f);
     }
 }

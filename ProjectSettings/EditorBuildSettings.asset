@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GDawg.unity
-    guid: 5c97e6def75725147b93563971399c33
+    path: Assets/Scenes/Game 1.unity
+    guid: f1d0731753362de45a2be8c238ab4fc3
   - enabled: 1
-    path: Assets/Scenes/ShipScene.unity
-    guid: 5a06b3fad5167264db36a17226f95711
+    path: Assets/Scenes/Isle_1_Toship.unity
+    guid: 7855f011d91376c4c86db1815c286b40
+  - enabled: 1
+    path: Assets/Scenes/Island_2.unity
+    guid: c89637810d6f2734ca492617ad675c83
   m_configObjects: {}

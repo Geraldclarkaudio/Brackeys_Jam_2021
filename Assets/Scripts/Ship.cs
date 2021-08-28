@@ -40,7 +40,7 @@ public class Ship : MonoBehaviour
 
         direction = new Vector3(0, 0, vertical);
         velocity = direction * _speed;
-
+        
         velocity = transform.TransformDirection(velocity);
         _controller.Move(velocity * Time.deltaTime);
     }
@@ -64,4 +64,7 @@ public class Ship : MonoBehaviour
         currentCamRot.x = Mathf.Clamp(currentCamRot.x, 0, 26);
         mainCam.gameObject.transform.localRotation = Quaternion.AngleAxis(currentCamRot.x, Vector3.right);
     }
+
+    //Cannon Fire? 
+
 }

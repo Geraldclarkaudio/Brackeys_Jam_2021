@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        health = 5;
         mainCam = Camera.main;
 
         if (mainCam == null)
@@ -57,11 +58,12 @@ public class Player : MonoBehaviour
         }
 
         _anim = GetComponentInChildren<Animator>();
-       
-        health = 5;
-       
-        //lock cursor and hide it
-        //escape key to unlock and reshow
+
+        if(_anim == null)
+        {
+            Debug.LogError("Animator is Null");
+        }
+      
         Cursor.lockState = CursorLockMode.Locked;
     }
 
