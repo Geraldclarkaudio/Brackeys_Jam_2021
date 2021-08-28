@@ -8,7 +8,7 @@ public class ChestOpen : MonoBehaviour
 
     [SerializeField]
     private GameObject coinPrefab;
-
+    [SerializeField]
     private bool canOpen = false;
 
     // Start is called before the first frame update
@@ -21,13 +21,18 @@ public class ChestOpen : MonoBehaviour
     {
         canOpen = true;
 
-        if(other.tag == "Player" && Input.GetKeyDown(KeyCode.E) && canOpen == true)
-        {
-            anim.SetTrigger("Open");
-        }
     }
     private void OnTriggerExit(Collider other)
     {
         canOpen = false;
+    }
+
+    private void Update()
+    {
+        if (canOpen == true && Input.GetKeyDown(KeyCode.E))
+        {
+            canOpen = false;
+            anim.SetTrigger("Open");
+        }
     }
 }

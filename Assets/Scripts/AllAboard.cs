@@ -7,6 +7,8 @@ public class AllAboard : MonoBehaviour
 {
     [SerializeField]
     private bool canBoard = false;
+    [SerializeField]
+    private int shipSceneToLoad;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -28,7 +30,7 @@ public class AllAboard : MonoBehaviour
         if(canBoard == true && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("On the Ship!");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(shipSceneToLoad);
 
         }
     }

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 7de8285c6bfd27545ad123db2d3f6b0a
+  - enabled: 1
+    path: Assets/Scenes/IntroCutScene.unity
+    guid: 5281e94e2209c494a85c13aab0db91a8
+  - enabled: 1
     path: Assets/Scenes/Game 1.unity
     guid: f1d0731753362de45a2be8c238ab4fc3
   - enabled: 1
@@ -14,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Island_2.unity
     guid: c89637810d6f2734ca492617ad675c83
+  - enabled: 1
+    path: Assets/Scenes/Island_3.unity
+    guid: 81ffd3ad97118f749ba160abbe39474c
+  - enabled: 1
+    path: Assets/Scenes/Isle_2_Toship.unity
+    guid: f7c04ec87a7104848ab0788133d63218
+  - enabled: 1
+    path: Assets/Scenes/Isle_3_Toship.unity
+    guid: 436a5e994d6a0ec4885757bee20e7779
+  - enabled: 1
+    path: Assets/Scenes/Island_1_Dock.unity
+    guid: 22ab818850008d14caf4075348b39887
   m_configObjects: {}
