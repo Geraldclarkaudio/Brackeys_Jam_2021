@@ -811,7 +811,7 @@ PrefabInstance:
     - target: {fileID: 6771370210466720327, guid: 318d5f49e8b3e414e91071b32c1f00b9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6771370210466720327, guid: 318d5f49e8b3e414e91071b32c1f00b9,
         type: 3}
@@ -1129,6 +1129,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1003539008}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1163290086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1145276214, guid: 318d5f49e8b3e414e91071b32c1f00b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 983840787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1206464801 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 63a00887f35007844ac25306c272bf17,
@@ -1274,53 +1280,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1444498544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1444498545}
-  - component: {fileID: 1444498546}
-  m_Layer: 0
-  m_Name: UI_Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1444498545
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444498544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1444498546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444498544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85a106eb16f7cb64294cfaeb54baee56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _goldText: {fileID: 0}
-  _livesText: {fileID: 0}
 --- !u!1001 &1491043897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1568,6 +1529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBoard: 0
   shipSceneToLoad: 6
+  presEBubble: {fileID: 1163290086}
 --- !u!65 &1989627128
 BoxCollider:
   m_ObjectHideFlags: 0

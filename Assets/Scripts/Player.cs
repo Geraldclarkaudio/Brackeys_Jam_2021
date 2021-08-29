@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -22,8 +23,7 @@ public class Player : MonoBehaviour
     private Camera mainCam;
 
     [Header("UI Settings")]
-    [SerializeField]
-    private int gold;
+   
     private UIManager _uiManager;
 
     [Header("Stats")]
@@ -31,12 +31,15 @@ public class Player : MonoBehaviour
     private int health;
 
     private Animator _anim;
+    private GoldCounter goldCounter;
+    private bool canWin = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        health = 5;
+        health = 9;
         mainCam = Camera.main;
+        goldCounter = GameObject.Find("UI_Manager").GetComponent<GoldCounter>();
 
         if (mainCam == null)
         {
@@ -79,6 +82,14 @@ public class Player : MonoBehaviour
         {
             Cursor.lockState = CursorLockMode.None;
         }
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
+
+        
+          
     }
 
     void CalculateMovement()
@@ -128,12 +139,6 @@ public class Player : MonoBehaviour
         mainCam.gameObject.transform.localRotation = Quaternion.AngleAxis(currentCamRot.x, Vector3.right);
     }
 
-    public void AddCoins()
-    {
-        gold++;
-        _uiManager.UpdateGoldDisplay(gold);
-
-    }
 
     public void Attack()
     {
@@ -147,6 +152,33 @@ public class Player : MonoBehaviour
     public void Damage()
     {
         health--;
-        //_uiManager.UpateLivesDisplay(health);
+        _uiManager.UpateLivesDisplay(health);
+
+        if (health < 1)
+        {
+            _controller.enabled = false;
+            //death animation
+            StartCoroutine(GameOver());
+        }
+    }
+
+    IEnumerator GameOver()
+    {
+        yield return new WaitForSeconds(5.0f);
+        SceneManager.LoadScene(0);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Win")
+        {
+            if (goldCounter.gold >= 50)
+            {
+                SceneManager.LoadScene(9);
+            }
+            else
+                return;
+        }
+      
     }
 }

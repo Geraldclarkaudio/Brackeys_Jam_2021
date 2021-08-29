@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class LoadingTheScene : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject uiManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        uiManager.SetActive(true);
         SceneManager.LoadScene(2);
     }
 

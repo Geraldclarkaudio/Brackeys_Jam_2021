@@ -9,12 +9,16 @@ public class AllAboard : MonoBehaviour
     private bool canBoard = false;
     [SerializeField]
     private int shipSceneToLoad;
+    [SerializeField]
+    private GameObject presEBubble;
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
             canBoard = true;
+            presEBubble.SetActive(true);
+            
         }
     }
     private void nTriggerExit(Collider other)
@@ -22,6 +26,7 @@ public class AllAboard : MonoBehaviour
         if (other.tag == "Player")
         {
             canBoard = false;
+            presEBubble.SetActive(false);
         }
     }
 

@@ -36,6 +36,7 @@ public class ChestOpen : MonoBehaviour
             canOpen = false;
             anim.SetTrigger("Open");
             _audioSource.Play();
+            Instantiate(coinPrefab, transform.position, Quaternion.identity);
 
         }
     }

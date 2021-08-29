@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Island_1_Dock.unity
     guid: 22ab818850008d14caf4075348b39887
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 0a63b929a7f73c64192471ba55cee34b
   m_configObjects: {}

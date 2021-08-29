@@ -8,7 +8,16 @@ public class Gold : MonoBehaviour
     private float speed = 5.0f;
 
     public AudioClip clip;
- 
+
+    private GoldCounter goldCounter;
+
+    public int gold;
+
+    private void Start()
+    {
+        goldCounter = GameObject.Find("UI_Manager").GetComponent<GoldCounter>();    
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
@@ -18,8 +27,10 @@ public class Gold : MonoBehaviour
             if(player != null)
             {
                 AudioSource.PlayClipAtPoint(clip, transform.position, 1.0f);
-                
+
                 //player.AddCoins();
+                goldCounter.Count();
+               
             }
 
             Debug.Log("Obtained a Coin");
