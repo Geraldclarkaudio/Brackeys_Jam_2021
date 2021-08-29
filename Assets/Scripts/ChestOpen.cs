@@ -6,6 +6,7 @@ public class ChestOpen : MonoBehaviour
 {
     private Animator anim;
     private AudioSource _audioSource;
+    public GameObject pressE;
 
     [SerializeField]
     private GameObject coinPrefab;
@@ -22,11 +23,13 @@ public class ChestOpen : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         canOpen = true;
+        pressE.SetActive(true);
 
     }
     private void OnTriggerExit(Collider other)
     {
         canOpen = false;
+        pressE.SetActive(false);
     }
 
     private void Update()

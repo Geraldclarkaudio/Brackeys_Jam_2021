@@ -174,6 +174,7 @@ public class Player : MonoBehaviour
         {
             if (goldCounter.gold >= 50)
             {
+                Cursor.lockState = CursorLockMode.None;
                 SceneManager.LoadScene(9);
             }
             else

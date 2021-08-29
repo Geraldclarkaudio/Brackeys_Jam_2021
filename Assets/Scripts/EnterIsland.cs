@@ -11,10 +11,13 @@ public class EnterIsland : MonoBehaviour
     [SerializeField]
     private int islandScene;
 
+    public GameObject pressE;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
+            pressE.SetActive(true);
             canEnter = true;
         }
     }
@@ -23,6 +26,7 @@ public class EnterIsland : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            pressE.SetActive(false);
             canEnter = false;
         }
     }
@@ -34,6 +38,8 @@ public class EnterIsland : MonoBehaviour
             Debug.Log("Can Enter Island");
             //Load Scene
             SceneManager.LoadScene(islandScene);
+
+           
         }
     }
 }

@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 53f13eeeae7c3be4a8645c4d166dad8a,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1798,6 +1798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest
       objectReference: {fileID: 0}
+    - target: {fileID: 4284297550914631146, guid: f467ad608db2a2a40b44d931a73a9325,
+        type: 3}
+      propertyPath: pressE
+      value: 
+      objectReference: {fileID: 1163290086}
     - target: {fileID: 4395047666638836236, guid: f467ad608db2a2a40b44d931a73a9325,
         type: 3}
       propertyPath: m_RootOrder
